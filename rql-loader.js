@@ -1,4 +1,7 @@
 module.exports = function (source) {
-  console.log(source);
-  return 'console.log("added by loader")';
+  return `export default function(){
+		 // any parsing on rql if required
+     // makes api call and fetches data
+     return "${source.trim()}";
+	}`;
 };
