@@ -15,7 +15,7 @@ npm install
 - Initial setup
 
 ```sh
-git checkout TODO
+git checkout a7314352c5b78958717d7c1ddf56352301cdbbfe
 ```
 
 ## Command
@@ -27,4 +27,4 @@ npx webpack build --config webpack.config.js
 ## Resources
 
 - https://webpack.js.org/loaders/
-- https://webpack.js.org/contribute/writing-a-loader/ 
+- https://webpack.js.org/contribute/writing-a-loader/
